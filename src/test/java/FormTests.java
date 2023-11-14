@@ -9,6 +9,7 @@ import static com.codeborne.selenide.Selenide.*;
 
 
 public class FormTests {
+
     @Test
     void correctForm(){
         open("http://localhost:9999");
